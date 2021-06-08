@@ -310,7 +310,7 @@ nav {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* For mobile phones: */
   .imags {
-    max-height: 20vh;
+    max-height: 10vh;
   }
 }
 
