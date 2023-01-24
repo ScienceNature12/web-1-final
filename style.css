@@ -773,10 +773,9 @@ footer {
 
 #myBtn {
   display: flex; 
-  align-self: flex-start;
   position: fixed; 
   bottom: 20px; 
-  right: 30px; 
+  left: 10px; 
   z-index: 99;
   border: none; 
   outline: none; 
