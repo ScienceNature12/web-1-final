@@ -1,4 +1,25 @@
 <html>
+  <script>
+  
+   mybutton = document.getElementById("myBtn");
+
+
+   window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+  </script>
 
 <head>
   <title>TB Design</title>
@@ -229,6 +250,7 @@
   
   <footer>
     <a name="footer"></a>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
     <span class="contact">
       <p>Email:<a href="Mailto:tylermbolen@hotmail.com"> tylermbolen@hotmail.com</a> | Phone: <a href="tel:5094756297"> (509)4756297</a></p>
@@ -268,7 +290,6 @@
         </svg>
 
       </a>
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
   </footer>
 </body>
