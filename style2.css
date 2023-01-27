@@ -267,3 +267,28 @@ li {
     width: 320px;
     height: 320px;
 }
+
+a {
+  color: inherit;
+  
+}
+
+a:hover {
+  color: #0a6481;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
