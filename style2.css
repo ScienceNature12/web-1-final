@@ -268,35 +268,4 @@ li {
     height: 320px;
 }
 
-.link{
-    margin: 0;
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
 
-a {
-  color: inherit;
-  fon-size: 60px;  
-  
-}
-
-a:hover {
-  color: #0a6481;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
