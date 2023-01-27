@@ -2,6 +2,18 @@
 
 html {
   scroll-behavior: smooth;
+  
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    height: 1000px;
+    width: 1000px;
+    justify-content: center;
+}
 }
 
 body {
