@@ -322,11 +322,11 @@ nav {
 
 a {
   color: inherit;
+  font-size: 30px;
 }
 
 a:hover {
   color: #0a6481;
-   font-size: 60px;
 }
 
 /** LIGHTBOX MARKUP **/
