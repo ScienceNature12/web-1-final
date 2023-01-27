@@ -836,8 +836,8 @@ a:active {
     position: relative;
     background: 039296;
     overflow: hidden;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     border-radius: 100%;
 }
 
@@ -891,8 +891,8 @@ a:active {
     position: absolute;
     top: 10%;
     left: 10%;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
     background: #039296;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
