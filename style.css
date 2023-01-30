@@ -795,6 +795,22 @@ body {
   
 }
 
+@media only screen and (min-width: 834px) and (max-width: 1194px) {
+  #pp {
+    font-size: 10px;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* For mobile phones: */
+  #pp {
+    font-size: 10px;
+    
+  }
+}
+
 #h33 {
     padding-left: 10px;
     padding-top: 5px;
