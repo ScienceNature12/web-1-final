@@ -834,14 +834,14 @@ body {
 .card_face--front {
     background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card_face--front h2 {
     color: white;
     font-size: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .flipme{
