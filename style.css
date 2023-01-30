@@ -802,7 +802,7 @@ body {
 
 .card {
     margin: 100px auto 0;
-    width: 400px;
+    width: 600px;
     height: 800px;
     perspective: 1000px;
 }
