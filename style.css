@@ -802,8 +802,8 @@ body {
 
 .card {
     margin: 100px auto 0;
-    width: 700px;
-    height: 800px;
+    width: 600px;
+    height: 400px;
     perspective: 1000px;
 }
 
