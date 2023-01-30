@@ -853,10 +853,19 @@ body {
     height: 100%;
 }
 
+.flipme{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 0 0 20% 0%;
+    background-color: white;
+}
+
 .card_header {
     position: relative;
     padding: 30px 30px 40px;
 }
+
 
 .card_header:after {
     content: '';
