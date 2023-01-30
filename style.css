@@ -789,12 +789,12 @@ body {
     min-height: 100vh;
 }
 
- .pp {
+ #pp {
     padding: 10px;
     font size: 10px; 
 }
 
-.h33 {
+#h33 {
     padding-left: 10px;
     padding-top: 5px;
 }
