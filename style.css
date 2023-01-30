@@ -843,10 +843,6 @@ body {
     font-size: 50px;
 }
 
-.card_face--front:hover:after{
-  content: "Click ME!";
-}
-
 .card_face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
