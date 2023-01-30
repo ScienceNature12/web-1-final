@@ -809,10 +809,9 @@ body {
 
 @media only screen and (min-width: 834px) and (max-width: 1194px) {
   .card {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     font-size: 10px;
-    display: flex;
   }
 }
 
@@ -821,10 +820,9 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* For mobile phones: */
   .card {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     font-size: 10px;
-    display: flex;
     
   }
 }
