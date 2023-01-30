@@ -791,8 +791,8 @@ body {
 
  #pp {
     padding: 10px;
-    font-size: 10px;
-    line-height: 1.5px;
+    font-size: 12px;
+  
 }
 
 #h33 {
@@ -803,7 +803,7 @@ body {
 .card {
     margin: 100px auto 0;
     width: 400px;
-    height: 600px;
+    height: 800px;
     perspective: 1000px;
 }
 
