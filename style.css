@@ -854,6 +854,7 @@ body {
 }
 
 .flipme{
+    position:absolute;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
