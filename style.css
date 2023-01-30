@@ -844,13 +844,6 @@ body {
     display: flex;
 }
 
-.flipme{
-   
-   display: flex;
-   justify-content: flex-end;
-   right:0;
-}
-
 .card_face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
