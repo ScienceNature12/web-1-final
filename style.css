@@ -806,7 +806,7 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   /* For mobile phones: */
   #pp {
-    font-size: 10px;
+    font-size: 8px;
     
   }
 }
