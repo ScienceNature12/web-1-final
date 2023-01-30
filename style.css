@@ -789,11 +789,11 @@ body {
     min-height: 100vh;
 }
 
-.pp {
+.card_body p {
     padding: 10px;
 }
 
-.h33 {
+.card_body h3 {
     padding-left: 10px;
     padding-top: 5px;
 }
