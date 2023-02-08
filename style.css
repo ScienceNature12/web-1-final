@@ -772,8 +772,8 @@ a:active {
 }
 
 :root {
-    --primary: #588e41;
-    --secondary: #1268cc;
+    --primary: #1268cc;
+    --secondary: #588e41;
     --dark: #212121;
     --light: #f3f3f3;
 }
