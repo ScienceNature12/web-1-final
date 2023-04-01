@@ -1,0 +1,54 @@
+body {
+    background-color: #b82b4b;
+    height: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* For mobile phones: */
+    body {
+        width: 100%;
+        padding: 10px;
+        margin: 1;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1194px) {
+    body {
+        width: 100%;
+        padding: 10px;
+        margin: 1;
+    }
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    margin-left: 326px
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button {
+    background-color: #0a919b;
+    color: #000000;
+}

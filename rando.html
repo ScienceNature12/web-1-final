@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container1">
+        <h3>Enter choices in the box</h3>
+    </div>
+    <div class="container2">
+        <p>(sepreate each choice with a new line. When done hit choose.)</p>
+    </div>
+    <div class="container3">
+        <textarea id="textarea" rows="10" cols="50"></textarea>
+    </div>
+    <div class="container4">
+        <input type="button" class="button" name="button" value="Choose" onclick="choose()">
+    </div>
+    <div class="container5">
+        <input type="text" id="choice" size="55" maxlength="30">
+    </div>
+
+
+    <script>
+        function choose() {
+            const input = document.getElementById('textarea').value;
+            const lines = input.split('\n');
+            const randomLine = lines[Math.floor(Math.random() * lines.length)];
+
+            //Display your line
+            document.getElementById('choice').value = randomLine;
+        }
+    </script>
+
+</body>
+
+</html>
