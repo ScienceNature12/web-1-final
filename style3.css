@@ -63,6 +63,21 @@ body {
     padding-top: 30px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* For mobile phones: */
+    .container5 {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1194px) {
+    .container5 {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
 .button {
     background-color: #0a919b;
     color: #000000;
